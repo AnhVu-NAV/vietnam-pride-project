@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tự hào Việt Nam - 50 năm Giải phóng miền Nam</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+    <header>
+        <div class="header-content">
+            <h1>50 NĂM GIẢI PHÓNG MIỀN NAM - THỐNG NHẤT ĐẤT NƯỚC</h1>
+            <h2>30/4/1975 - 30/4/2025</h2>
+            <div class="flag-container">
+                <img src="flag.svg" alt="Cờ Việt Nam" class="flag">
+                <div class="flag-light"></div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#map-section">Bản đồ Tổ quốc</a></li>
+            <li><a href="#gallery">Hình ảnh lịch sử</a></li>
+            <li><a href="#timeline">Dòng thời gian</a></li>
+            <li><a href="#quotes">Lời Bác dạy</a></li>
+        </ul>
+    </nav>
+
+    <div class="music-player">
+        <div class="music-info">
+            <span id="song-title">Giải phóng miền Nam</span>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="prev" class="control-button"><i class="fas fa-backward"></i></button>
+            <button id="play" class="control-button"><i class="fas fa-play"></i></button>
+            <button id="next" class="control-button"><i class="fas fa-forward"></i></button>
+            <div class="volume-container">
+                <i class="fas fa-volume-up"></i>
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+            </div>
+        </div>
+    </div>
+
+    <section id="map-section" class="section">
+        <h2>BẢN ĐỒ TỔ QUỐC VIỆT NAM</h2>
+        <div class="map-container">
+            <div id="vietnam-map"></div>
+            <div class="map-info">
+                <div class="map-legend">
+                    <div class="legend-item">
+                        <span class="legend-color mainland"></span>
+                        <span>Đất liền</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color islands"></span>
+                        <span>Quần đảo Hoàng Sa</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color islands-2"></span>
+                        <span>Quần đảo Trường Sa</span>
+                    </div>
+                </div>
+                <p>Việt Nam có diện tích 331.212 km², bờ biển dài 3.260 km, với chủ quyền không thể tranh cãi đối với
+                    quần đảo Hoàng Sa và Trường Sa.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>HÌNH ẢNH TƯ LIỆU LỊCH SỬ</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="image1.jpg" alt="Xe tăng tiến vào Dinh Độc Lập ngày 30/4/1975">
+                <div class="caption">Xe tăng tiến vào Dinh Độc Lập ngày 30/4/1975</div>
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="Lá cờ giải phóng tung bay trên Dinh Độc Lập">
+                <div class="caption">Lá cờ giải phóng tung bay trên Dinh Độc Lập</div>
+            </div>
+            <div class="gallery-item">
+                <img src="image3.jpg" alt="Nhân dân Sài Gòn đón quân giải phóng">
+                <div class="caption">Nhân dân Sài Gòn đón quân giải phóng</div>
+            </div>
+            <div class="gallery-item">
+                <img src="image4.jpg" alt="Đoàn quân chiến thắng trên đường phố Sài Gòn">
+                <div class="caption">Đoàn quân chiến thắng trên đường phố Sài Gòn</div>
+            </div>
+            <div class="gallery-item">
+                <img src="image5.jpg" alt="Lễ mừng chiến thắng tại Hà Nội">
+                <div class="caption">Lễ mừng chiến thắng tại Hà Nội</div>
+            </div>
+            <div class="gallery-item">
+                <img src="image6.jpg" alt="Đất nước thống nhất sau 30/4/1975">
+                <div class="caption">Đất nước thống nhất sau 30/4/1975</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="section">
+        <h2>DÒNG THỜI GIAN LỊCH SỬ</h2>
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-date">1954</div>
+                <div class="timeline-content">
+                    <h3>Hiệp định Genève</h3>
+                    <p>Hiệp định Genève được ký kết, tạm thời chia đôi đất nước tại vĩ tuyến 17. Miền Bắc được giải
+                        phóng, miền Nam tạm thời dưới sự kiểm soát của chính quyền Sài Gòn.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">1960</div>
+                <div class="timeline-content">
+                    <h3>Thành lập Mặt trận Dân tộc Giải phóng miền Nam Việt Nam</h3>
+                    <p>Mặt trận Dân tộc Giải phóng miền Nam Việt Nam được thành lập, đánh dấu bước phát triển mới của
+                        cách mạng miền Nam.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">1968</div>
+                <div class="timeline-content">
+                    <h3>Tổng tiến công và nổi dậy Tết Mậu Thân</h3>
+                    <p>Cuộc Tổng tiến công và nổi dậy Tết Mậu Thân gây chấn động dư luận thế giới, làm thay đổi cục diện
+                        chiến tranh.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">1973</div>
+                <div class="timeline-content">
+                    <h3>Hiệp định Paris</h3>
+                    <p>Hiệp định Paris về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam được ký kết. Mỹ buộc phải
+                        rút quân khỏi miền Nam Việt Nam.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">1975</div>
+                <div class="timeline-content">
+                    <h3>Chiến dịch Hồ Chí Minh</h3>
+                    <p>Chiến dịch Hồ Chí Minh lịch sử được phát động, quân giải phóng tiến vào Sài Gòn.</p>
+                </div>
+            </div>
+            <div class="timeline-item highlight">
+                <div class="timeline-date">30/4/1975</div>
+                <div class="timeline-content">
+                    <h3>Giải phóng Sài Gòn</h3>
+                    <p>Xe tăng quân giải phóng tiến vào Dinh Độc Lập, cờ cách mạng tung bay trên nóc dinh, đánh dấu sự
+                        sụp đổ hoàn toàn của chế độ Sài Gòn và chiến thắng vĩ đại của dân tộc.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">1/5/1975</div>
+                <div class="timeline-content">
+                    <h3>Ngày Quốc tế Lao động</h3>
+                    <p>Lần đầu tiên sau nhiều năm chia cắt, nhân dân cả nước cùng mừng Ngày Quốc tế Lao động trong độc
+                        lập, tự do.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2/7/1976</div>
+                <div class="timeline-content">
+                    <h3>Thống nhất đất nước</h3>
+                    <p>Quốc hội thống nhất quyết định lấy tên nước là Cộng hòa Xã hội Chủ nghĩa Việt Nam, đánh dấu sự
+                        thống nhất hoàn toàn của đất nước.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quotes" class="section">
+        <h2>LỜI BÁC DẠY</h2>
+        <div class="quotes-container">
+            <div class="quote">
+                <p>"Không có gì quý hơn độc lập, tự do."</p>
+                <span>- Chủ tịch Hồ Chí Minh -</span>
+            </div>
+            <div class="quote">
+                <p>"Dân ta phải biết sử ta, cho tường gốc tích nước nhà Việt Nam."</p>
+                <span>- Chủ tịch Hồ Chí Minh -</span>
+            </div>
+            <div class="quote">
+                <p>"Nước Việt Nam là một, dân tộc Việt Nam là một. Sông có thể cạn, núi có thể mòn, nhưng chân lý đó
+                    không bao giờ thay đổi."</p>
+                <span>- Chủ tịch Hồ Chí Minh -</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 - Kỷ niệm 50 năm Giải phóng miền Nam, thống nhất đất nước</p>
+            <p>Tự hào Việt Nam - Đất nước anh hùng, nhân dân anh hùng</p>
+        </div>
+    </footer>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
