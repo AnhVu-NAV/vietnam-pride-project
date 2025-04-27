@@ -677,3 +677,11 @@ button:hover {
     transform: translateX(100%);
   }
 }
+
+
+.footer-content p:last-child {
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--primary-color); 
+  margin-top: 1rem; 
+}
