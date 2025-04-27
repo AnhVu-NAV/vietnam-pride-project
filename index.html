@@ -54,25 +54,11 @@
     <section id="map-section" class="section">
         <h2>BẢN ĐỒ TỔ QUỐC VIỆT NAM</h2>
         <div class="map-container">
-            <div id="vietnam-map"></div>
-            <div class="map-info">
-                <div class="map-legend">
-                    <div class="legend-item">
-                        <span class="legend-color mainland"></span>
-                        <span>Đất liền</span>
-                    </div>
-                    <div class="legend-item">
-                        <span class="legend-color islands"></span>
-                        <span>Quần đảo Hoàng Sa</span>
-                    </div>
-                    <div class="legend-item">
-                        <span class="legend-color islands-2"></span>
-                        <span>Quần đảo Trường Sa</span>
-                    </div>
-                </div>
-                <p>Việt Nam có diện tích 331.212 km², bờ biển dài 3.260 km, với chủ quyền không thể tranh cãi đối với
-                    quần đảo Hoàng Sa và Trường Sa.</p>
-            </div>
+            <!-- Thêm hình ảnh bản đồ Việt Nam -->
+            <img src="./img/BAN-DO-VIET-NAM.jpg" alt="Bản đồ Việt Nam"
+                style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p>Việt Nam có diện tích 331.212 km², bờ biển dài 3.260 km, với chủ quyền không thể tranh cãi đối với quần
+                đảo Hoàng Sa và Trường Sa.</p>
         </div>
     </section>
 
@@ -80,27 +66,28 @@
         <h2>HÌNH ẢNH TƯ LIỆU LỊCH SỬ</h2>
         <div class="gallery-container">
             <div class="gallery-item">
-                <img src="image1.jpg" alt="Xe tăng tiến vào Dinh Độc Lập ngày 30/4/1975">
+                <img src="./img/huc-do-dinh-4145.jpg" alt="Xe tăng tiến vào Dinh Độc Lập ngày 30/4/1975">
                 <div class="caption">Xe tăng tiến vào Dinh Độc Lập ngày 30/4/1975</div>
             </div>
             <div class="gallery-item">
-                <img src="image2.jpg" alt="Lá cờ giải phóng tung bay trên Dinh Độc Lập">
+                <img src="./img/giai-phong-mien-nam-1975_NUVJ.jpg" alt="Lá cờ giải phóng tung bay trên Dinh Độc Lập">
                 <div class="caption">Lá cờ giải phóng tung bay trên Dinh Độc Lập</div>
             </div>
             <div class="gallery-item">
-                <img src="image3.jpg" alt="Nhân dân Sài Gòn đón quân giải phóng">
+                <img src="./img/160415-Nguoi-dan-Sai-Gon-do-ra-duong-don-quan-giai-phong-1.jpg"
+                    alt="Nhân dân Sài Gòn đón quân giải phóng">
                 <div class="caption">Nhân dân Sài Gòn đón quân giải phóng</div>
             </div>
             <div class="gallery-item">
-                <img src="image4.jpg" alt="Đoàn quân chiến thắng trên đường phố Sài Gòn">
+                <img src="./img/3004dung1.jpg" alt="Đoàn quân chiến thắng trên đường phố Sài Gòn">
                 <div class="caption">Đoàn quân chiến thắng trên đường phố Sài Gòn</div>
             </div>
             <div class="gallery-item">
-                <img src="image5.jpg" alt="Lễ mừng chiến thắng tại Hà Nội">
+                <img src="./img/000088_DHCA.jpg" alt="Lễ mừng chiến thắng tại Hà Nội">
                 <div class="caption">Lễ mừng chiến thắng tại Hà Nội</div>
             </div>
             <div class="gallery-item">
-                <img src="image6.jpg" alt="Đất nước thống nhất sau 30/4/1975">
+                <img src="./img/74894-b9ff5ca3f1a2ce0fc8c55de72e464bd6.jpeg" alt="Đất nước thống nhất sau 30/4/1975">
                 <div class="caption">Đất nước thống nhất sau 30/4/1975</div>
             </div>
         </div>
@@ -194,13 +181,85 @@
         </div>
     </section>
 
+    <section id="quiz-section" class="section">
+        <h2>KIỂM TRA TRẮC NGHIỆM</h2>
+        <form id="quiz-form">
+            <!-- Câu hỏi 1 -->
+            <div class="quiz-question">
+                <p><strong>1. Quân đội nhân dân Việt Nam chiến thắng tại Dinh Độc Lập vào ngày nào?</strong></p>
+                <input type="radio" id="q1a" name="q1" value="a">
+                <label for="q1a">30/4/1975</label><br>
+                <input type="radio" id="q1b" name="q1" value="b">
+                <label for="q1b">1/5/1975</label><br>
+                <input type="radio" id="q1c" name="q1" value="c">
+                <label for="q1c">2/7/1976</label><br>
+            </div>
+
+            <!-- Câu hỏi 2 -->
+            <div class="quiz-question">
+                <p><strong>2. Quân đảo nào thuộc chủ quyền của Việt Nam?</strong></p>
+                <input type="radio" id="q2a" name="q2" value="a">
+                <label for="q2a">Hoàng Sa và Trường Sa</label><br>
+                <input type="radio" id="q2b" name="q2" value="b">
+                <label for="q2b">Quần đảo Malvinas</label><br>
+                <input type="radio" id="q2c" name="q2" value="c">
+                <label for="q2c">Quần đảo Galápagos</label><br>
+            </div>
+
+            <!-- Câu hỏi 3 -->
+            <div class="quiz-question">
+                <p><strong>3. Mặt trận Dân tộc Giải phóng miền Nam được thành lập vào năm nào?</strong></p>
+                <input type="radio" id="q3a" name="q3" value="a">
+                <label for="q3a">1960</label><br>
+                <input type="radio" id="q3b" name="q3" value="b">
+                <label for="q3b">1975</label><br>
+                <input type="radio" id="q3c" name="q3" value="c">
+                <label for="q3c">1954</label><br>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Kiểm tra kết quả</button>
+        </form>
+
+        <div id="quiz-result"></div>
+    </section>
+
+
     <footer>
         <div class="footer-content">
             <p>© 2025 - Kỷ niệm 50 năm Giải phóng miền Nam, thống nhất đất nước</p>
             <p>Tự hào Việt Nam - Đất nước anh hùng, nhân dân anh hùng</p>
         </div>
     </footer>
+    <script>
+        function checkAnswers() {
+            var correctAnswers = 0;
 
+            // Kiểm tra câu hỏi 1
+            if (document.getElementById('q1a').checked) {
+                correctAnswers++;
+            }
+
+            // Kiểm tra câu hỏi 2
+            if (document.getElementById('q2a').checked) {
+                correctAnswers++;
+            }
+
+            // Kiểm tra câu hỏi 3
+            if (document.getElementById('q3a').checked) {
+                correctAnswers++;
+            }
+
+            // Hiển thị kết quả
+            var resultMessage = "Bạn đã trả lời đúng " + correctAnswers + " câu. ";
+            if (correctAnswers === 3) {
+                resultMessage += "Chúc mừng bạn, bạn đã trả lời đúng tất cả các câu hỏi!";
+            } else {
+                resultMessage += "Cố gắng hơn nữa nhé!";
+            }
+
+            document.getElementById('quiz-result').innerText = resultMessage;
+        }
+    </script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/topojson.v3.min.js"></script>
     <script src="script.js"></script>

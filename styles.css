@@ -565,3 +565,71 @@ footer p {
     justify-content: space-between;
   }
 }
+
+/* Cải thiện giao diện quiz */
+#quiz-section {
+  background-color: #f4f4f4;
+  padding: 3rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+#quiz-section h2 {
+  color: #d50000;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.quiz-question {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.quiz-question p {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.quiz-question input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.quiz-question label {
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.3rem;
+  transition: background-color 0.3s;
+}
+
+.quiz-question label:hover {
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #d50000;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+
+#quiz-result {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+#quiz-result.highlight {
+  color: #d50000;
+}
